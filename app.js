@@ -34,7 +34,7 @@ for (let dado of dados) {
 }
 
 if (!resultados) {
-  resultados = <p>"Sem resultados."</p>
+  resultados = "<p>Sem resultados.</p>"
 }
 
 section.innerHTML = resultados;
